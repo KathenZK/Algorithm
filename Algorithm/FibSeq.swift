@@ -7,7 +7,8 @@
 
 import Foundation
 
-//0 1 1 2 3 5 8 13
+///斐波那契数列，前两数相加等于第三个数，如： 0 1 1 2 3 5 8 13
+///时间复杂度：O(2^n)
 func fib1(_ n: UInt) -> UInt {
     if (n <= 1) {
         return n
@@ -16,6 +17,7 @@ func fib1(_ n: UInt) -> UInt {
     return fib1(n - 1) + fib1(n - 2)
 }
 
+///时间复杂度：O(n)
 func fib2(_ n: UInt) -> UInt {
     if (n <= 1) {
         return n
@@ -25,12 +27,11 @@ func fib2(_ n: UInt) -> UInt {
     var second = 1
     
     
-    for i in 1...n - 1 {
+    for _ in 1...n - 1 {
 //        let sum = first + second
 //        first = second
 //        second = sum
         (first, second) = (second, first + second)
-        print(i)
     }
     
     return UInt(second)

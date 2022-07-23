@@ -11,4 +11,12 @@ import Foundation
 
 //testFib()
 
+var elements: [Int] = [1, 2 , 5]
+//print(elements.contains(5)
+
+func contains<T: Equatable> (_ elements: [T], _ element: T) -> Bool {
+    return elements.contains { $0 == element }
+}
+
+print(contains(elements, 1))
 
