@@ -12,6 +12,9 @@
 		58C70230288A48C8007DFAE9 /* FibSeq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7022F288A48C7007DFAE9 /* FibSeq.swift */; };
 		58C70231288A48C8007DFAE9 /* FibSeq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7022F288A48C7007DFAE9 /* FibSeq.swift */; };
 		58C70233288A4B6B007DFAE9 /* FibSeqTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C70232288A4B6B007DFAE9 /* FibSeqTest.swift */; };
+		58C92E2C2896D280008ECA4D /* 二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C92E2B2896D280008ECA4D /* 二分查找.swift */; };
+		58C92E2E289780BC008ECA4D /* 第一个错误版本.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C92E2D289780BC008ECA4D /* 第一个错误版本.swift */; };
+		58C92E302897A191008ECA4D /* 搜索插入的位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C92E2F2897A191008ECA4D /* 搜索插入的位置.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +36,9 @@
 		58C70228288A4865007DFAE9 /* UnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C7022F288A48C7007DFAE9 /* FibSeq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibSeq.swift; sourceTree = "<group>"; };
 		58C70232288A4B6B007DFAE9 /* FibSeqTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibSeqTest.swift; sourceTree = "<group>"; };
+		58C92E2B2896D280008ECA4D /* 二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "二分查找.swift"; sourceTree = "<group>"; };
+		58C92E2D289780BC008ECA4D /* 第一个错误版本.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "第一个错误版本.swift"; sourceTree = "<group>"; };
+		58C92E2F2897A191008ECA4D /* 搜索插入的位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "搜索插入的位置.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 				58C7021D28884D02007DFAE9 /* main.swift */,
 				58C7022F288A48C7007DFAE9 /* FibSeq.swift */,
 				58752F24288A761700AFE5CB /* DynamicArray.swift */,
+				58C92E2B2896D280008ECA4D /* 二分查找.swift */,
+				58C92E2D289780BC008ECA4D /* 第一个错误版本.swift */,
+				58C92E2F2897A191008ECA4D /* 搜索插入的位置.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -178,8 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C92E302897A191008ECA4D /* 搜索插入的位置.swift in Sources */,
 				58752F25288A761700AFE5CB /* DynamicArray.swift in Sources */,
 				58C7021E28884D02007DFAE9 /* main.swift in Sources */,
+				58C92E2E289780BC008ECA4D /* 第一个错误版本.swift in Sources */,
+				58C92E2C2896D280008ECA4D /* 二分查找.swift in Sources */,
 				58C70230288A48C8007DFAE9 /* FibSeq.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
